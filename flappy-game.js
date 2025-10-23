@@ -14,15 +14,15 @@ class FlappyGame {
             width: 40,
             height: 40,
             velocity: 0,
-            gravity: 0.6,
-            jump: -10
+            gravity: 0.7,
+            jump: -11
         };
 
         this.pipes = [];
         this.chocolates = [];
         this.pipeWidth = 60;
         this.pipeGap = 180;
-        this.pipeSpeed = 2;
+        this.pipeSpeed = 4;
 
         this.frameCount = 0;
 
@@ -165,7 +165,7 @@ class FlappyGame {
         this.bird.y += this.bird.velocity;
 
         // Spawn pipes
-        if (this.frameCount % 120 === 0) {
+        if (this.frameCount % 90 === 0) {
             this.spawnPipe();
         }
 
