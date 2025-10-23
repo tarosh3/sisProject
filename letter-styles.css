@@ -1,0 +1,557 @@
+/* ----------------------------------------------------
+   Letter Page Styles - Cute & Emotional (Fixed Version)
+----------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    background: linear-gradient(135deg, #ffeef8 0%, #f0e6ff 50%, #e6f3ff 100%);
+    animation: backgroundShift 15s ease-in-out infinite;
+}
+
+@keyframes backgroundShift {
+    0%, 100% { 
+        background: linear-gradient(135deg, #ffeef8 0%, #f0e6ff 50%, #e6f3ff 100%); 
+    }
+    33% { 
+        background: linear-gradient(135deg, #f0e6ff 0%, #e6f3ff 50%, #fff0f5 100%); 
+    }
+    66% { 
+        background: linear-gradient(135deg, #e6f3ff 0%, #fff0f5 50%, #ffeef8 100%); 
+    }
+}
+
+/* ----------------------------------------------------
+   Animated Background Elements
+----------------------------------------------------- */
+.animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.floating-sparkles, .floating-hearts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.sparkle, .heart {
+    position: absolute;
+    font-size: 18px;
+    opacity: 0.7;
+    animation: floatUp 12s linear infinite;
+}
+
+.sparkle:nth-child(1) { left: 10%; animation-delay: 0s; }
+.sparkle:nth-child(2) { left: 30%; animation-delay: 2s; }
+.sparkle:nth-child(3) { left: 50%; animation-delay: 4s; }
+.sparkle:nth-child(4) { left: 70%; animation-delay: 6s; }
+.sparkle:nth-child(5) { left: 85%; animation-delay: 8s; }
+.sparkle:nth-child(6) { left: 15%; animation-delay: 10s; }
+
+.heart:nth-child(1) { left: 20%; animation-delay: 1s; }
+.heart:nth-child(2) { left: 40%; animation-delay: 3s; }
+.heart:nth-child(3) { left: 60%; animation-delay: 5s; }
+.heart:nth-child(4) { left: 80%; animation-delay: 7s; }
+.heart:nth-child(5) { left: 25%; animation-delay: 9s; }
+.heart:nth-child(6) { left: 75%; animation-delay: 11s; }
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(100vh) rotate(0deg);
+        opacity: 0;
+    }
+    10%, 90% { opacity: 0.7; }
+    50% {
+        transform: translateY(50vh) rotate(180deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-10vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* ----------------------------------------------------
+   Container
+----------------------------------------------------- */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* ----------------------------------------------------
+   Envelope Section
+----------------------------------------------------- */
+.envelope-section {
+    position: relative;
+    margin-bottom: 40px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.envelope {
+    position: relative;
+    width: 320px;
+    height: 200px;
+    margin: 0 auto 20px auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.envelope:hover {
+    transform: scale(1.05);
+}
+
+/* Envelope Body */
+.envelope-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #fff0f5, #f8f0ff);
+    border: 3px solid #e6b3ff;
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgba(214, 51, 132, 0.2);
+    z-index: 1;
+}
+
+/* Envelope Flap */
+.envelope-flap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    transform-origin: top center;
+    transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 3;
+    transform-style: preserve-3d;
+}
+
+.flap-triangle {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #ff9a9e, #fecfef);
+    border: 3px solid #e6b3ff;
+    border-bottom: none;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    box-shadow: 0 10px 25px rgba(214, 51, 132, 0.15);
+    backface-visibility: hidden;
+}
+
+.envelope-flap.open {
+    transform: rotateX(180deg);
+}
+
+/* Envelope Seal */
+.envelope-seal {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+    z-index: 4;
+    animation: sealPulse 2s ease-in-out infinite;
+    transition: all 0.5s ease;
+}
+
+.envelope-seal.hide {
+    opacity: 0;
+    transform: translateX(-50%) scale(0);
+}
+
+@keyframes sealPulse {
+    0%, 100% { transform: translateX(-50%) scale(1); }
+    50% { transform: translateX(-50%) scale(1.1); }
+}
+
+/* ----------------------------------------------------
+   Click Instruction
+----------------------------------------------------- */
+.click-instruction {
+    text-align: center;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+}
+
+.click-instruction p {
+    font-size: 1.2rem;
+    color: #d63384;
+    font-weight: 500;
+    animation: instructionGlow 3s ease-in-out infinite;
+}
+
+@keyframes instructionGlow {
+    0%, 100% { 
+        text-shadow: 0 0 10px rgba(214, 51, 132, 0.4);
+        transform: translateY(0);
+    }
+    50% { 
+        text-shadow: 0 0 20px rgba(214, 51, 132, 0.8);
+        transform: translateY(-3px);
+    }
+}
+
+.click-instruction.hide {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+/* ----------------------------------------------------
+   Letter Inside (Fixed)
+----------------------------------------------------- */
+.letter-inside {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 320px;
+  max-height: 420px;
+  z-index: 2;
+  opacity: 0;
+  transition: top 1.0s cubic-bezier(.2,.8,.2,1), opacity 0.9s ease, transform 0.9s ease;
+  will-change: top, opacity, transform;
+}
+
+.letter-inside.slide-up {
+  top: 34%;
+  opacity: 1;
+  transform: translate(-50%, -4%);
+}
+
+/* Letter Paper */
+.letter-paper {
+  width: 100%;
+  max-height: 420px;
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(214, 51, 132, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  overflow-y: auto;
+  padding: 22px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Custom Scrollbar */
+.letter-paper::-webkit-scrollbar {
+    width: 6px;
+}
+.letter-paper::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+.letter-paper::-webkit-scrollbar-thumb {
+    background: rgba(214, 51, 132, 0.3);
+    border-radius: 3px;
+}
+.letter-paper::-webkit-scrollbar-thumb:hover {
+    background: rgba(214, 51, 132, 0.5);
+}
+
+/* Letter Content */
+.letter-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 6px;
+  padding-top: 6px;
+  box-sizing: border-box;
+}
+
+.letter-header, .letter-footer {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.decorative-line {
+    font-size: 1.3rem;
+    animation: decorationSparkle 2s ease-in-out infinite;
+}
+
+@keyframes decorationSparkle {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+/* ----------------------------------------------------
+   Letter Text Styling
+----------------------------------------------------- */
+.letter-message {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.18rem;
+    line-height: 1.65;
+    color: #6f42c1;
+    text-align: center;
+    display: block;
+    margin: 6px 0;
+    padding: 6px 8px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    min-height: 150px;
+    box-sizing: border-box;
+}
+
+.letter-signature {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    color: #d63384;
+    text-align: right;
+    font-weight: 600;
+    margin: 20px 0;
+    white-space: pre-wrap;
+}
+
+/* Typing Cursor */
+.typing-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1.2em;
+    background-color: #d63384;
+    animation: blink 1s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+/* ----------------------------------------------------
+   Confetti & Heart Effects
+----------------------------------------------------- */
+.confetti-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.confetti {
+    position: absolute;
+    font-size: 20px;
+    animation: confettiFall 4s linear infinite;
+}
+
+@keyframes confettiFall {
+    0% { transform: translateY(-50px) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+.heart-sparkle {
+    position: absolute;
+    font-size: 16px;
+    animation: heartSparkle 2s ease-out forwards;
+    pointer-events: none;
+}
+
+@keyframes heartSparkle {
+    0% { opacity: 1; transform: scale(0) rotate(0deg); }
+    50% { opacity: 1; transform: scale(1.2) rotate(180deg); }
+    100% { opacity: 0; transform: scale(0) rotate(360deg); }
+}
+
+/* ----------------------------------------------------
+   Navigation Buttons
+----------------------------------------------------- */
+.navigation-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease;
+}
+
+.navigation-buttons.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.nav-btn {
+    background: linear-gradient(135deg, #ff6b9d, #c44569);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(255, 107, 157, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(255, 107, 157, 0.5);
+}
+
+.replay-btn { background: linear-gradient(135deg, #8e44ad, #6f42c1); }
+.back-btn   { background: linear-gradient(135deg, #ff9a9e, #fecfef); color: #d63384; }
+.home-btn   { background: linear-gradient(135deg, #87ceeb, #98fb98); color: #2c3e50; }
+
+.btn-icon { font-size: 1.1rem; }
+
+/* ----------------------------------------------------
+   Responsive Design
+----------------------------------------------------- */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px 15px 100px 15px;
+        min-height: calc(100vh + 50px);
+    }
+    
+    .envelope {
+        width: 280px;
+        height: 175px;
+    }
+    
+    .envelope-body {
+        height: 100%;
+    }
+    
+    .envelope-flap {
+        height: 87px;
+    }
+    
+    .envelope-seal {
+        top: 70px;
+        font-size: 2.2rem;
+    }
+    
+    .letter-inside {
+        width: 280px;
+        max-height: 380px;
+    }
+    
+    .letter-inside.slide-up {
+        top: 40%;
+        transform: translate(-50%, 0);
+    }
+    
+    .letter-paper {
+        max-height: 380px;
+        padding: 18px;
+    }
+    
+    .letter-message {
+        font-size: 1.06rem;
+        line-height: 1.5;
+        min-height: 120px;
+    }
+    
+    .click-instruction p {
+        font-size: 1.1rem;
+    }
+    
+    .navigation-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-btn {
+        width: 200px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .envelope {
+        width: 300px;
+        height: 187px;
+    }
+    
+    .envelope-body {
+        height: 100%;
+    }
+    
+    .envelope-flap {
+        height: 93px;
+    }
+    
+    .envelope-seal {
+        top: 75px;
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px 15px 120px 15px;
+        min-height: calc(100vh + 70px);
+    }
+    
+    .envelope {
+        width: 240px;
+        height: 150px;
+    }
+    
+    .envelope-body {
+        height: 100%;
+    }
+    
+    .envelope-flap {
+        height: 75px;
+    }
+    
+    .envelope-seal {
+        font-size: 2rem;
+        top: 60px;
+    }
+    
+    .letter-inside {
+        width: 220px;
+        max-height: 300px;
+    }
+    
+    .letter-inside.slide-up {
+        top: 38%;
+        transform: translate(-50%, 0);
+    }
+    
+    .letter-paper {
+        max-height: 300px;
+        padding: 14px;
+    }
+    
+    .letter-message {
+        font-size: 1rem;
+        line-height: 1.45;
+        min-height: 100px;
+    }
+}

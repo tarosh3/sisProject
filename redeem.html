@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redeem Your Chocolates 🍫💖</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="redeem-styles.css">
+</head>
+
+<body>
+    <div class="animated-bg">
+        <div class="floating-chocolates">
+            <div class="chocolate">🍫</div>
+            <div class="chocolate">🍬</div>
+            <div class="chocolate">🧁</div>
+            <div class="chocolate">🍫</div>
+            <div class="chocolate">🍬</div>
+            <div class="chocolate">🧁</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header class="redeem-header fade-in">
+            <h1>Congratulations! 🎉</h1>
+            <div class="chocolate-count" id="chocolateCount">
+                You've won 0 chocolates! 🍫
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="celebration-card fade-in-delay">
+                <div class="animated-messages" id="animatedMessages">
+                    <div class="message active">You're the best sister ever! 💕</div>
+                    <div class="message">You deserve all the chocolates in the world! 🍫</div>
+                    <div class="message">Your smile is worth a million chocolates! 😊</div>
+                    <div class="message">You make every day sweeter! 🌟</div>
+                    <div class="message">Love you to the moon and back! 🌙</div>
+                </div>
+
+                <div class="chocolate-rain" id="chocolateRain"></div>
+            </div>
+
+            <div class="slideshow-container fade-in-delay-2">
+                <h2>Our Beautiful Memories 📸</h2>
+                <div class="slideshow-wrapper">
+                    <div class="slideshow" id="slideshow">
+                        <!-- Slide 1: Replace with your favorite sibling photo -->
+                        <div class="slide active">
+                            <div class="photo-container">
+                                <img src="photos/photo1.jpg" alt="Best siblings forever" class="slide-image">
+                                <div class="animated-emojis">
+                                    <span class="emoji emoji-1">💖</span>
+                                    <span class="emoji emoji-2">✨</span>
+                                    <span class="emoji emoji-3">💕</span>
+                                    <span class="emoji emoji-4">🌟</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2: Replace with birthday photo -->
+                        <div class="slide">
+                            <div class="photo-container">
+                                <img src="photos/photo2.jpg" alt="Birthday celebration" class="slide-image">
+                                <div class="animated-emojis">
+                                    <span class="emoji emoji-1">🎉</span>
+                                    <span class="emoji emoji-2">🎂</span>
+                                    <span class="emoji emoji-3">🎈</span>
+                                    <span class="emoji emoji-4">🥳</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3: Replace with vacation photo -->
+                        <div class="slide">
+                            <div class="photo-container">
+                                <img src="photos/photo3.jpg" alt="Vacation memories" class="slide-image">
+                                <div class="animated-emojis">
+                                    <span class="emoji emoji-1">☀️</span>
+                                    <span class="emoji emoji-2">🏖️</span>
+                                    <span class="emoji emoji-3">🌺</span>
+                                    <span class="emoji emoji-4">📸</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4: Replace with holiday photo -->
+                        <div class="slide">
+                            <div class="photo-container">
+                                <img src="photos/photo4.jpg" alt="Holiday celebration" class="slide-image">
+                                <div class="animated-emojis">
+                                    <span class="emoji emoji-1">🎄</span>
+                                    <span class="emoji emoji-2">❄️</span>
+                                    <span class="emoji emoji-3">🎁</span>
+                                    <span class="emoji emoji-4">⭐</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 5: Replace with achievement photo -->
+                        <div class="slide">
+                            <div class="photo-container">
+                                <img src="photos/photo5.jpg" alt="Achievement moment" class="slide-image">
+                                <div class="animated-emojis">
+                                    <span class="emoji emoji-1">🏆</span>
+                                    <span class="emoji emoji-2">🎓</span>
+                                    <span class="emoji emoji-3">👏</span>
+                                    <span class="emoji emoji-4">🌟</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 6: Add your 6th favorite photo -->
+                        <div class="slide">
+                            <div class="photo-container">
+                                <img src="photos/photo6.jpg" alt="Special moment" class="slide-image">
+                                <div class="animated-emojis">
+                                    <span class="emoji emoji-1">💫</span>
+                                    <span class="emoji emoji-2">🦋</span>
+                                    <span class="emoji emoji-3">🌸</span>
+                                    <span class="emoji emoji-4">💝</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 7: Add your 7th favorite photo -->
+                        <div class="slide">
+                            <div class="photo-container">
+                                <img src="photos/photo7.jpg" alt="Amazing times" class="slide-image">
+                                <div class="animated-emojis">
+                                    <span class="emoji emoji-1">🌈</span>
+                                    <span class="emoji emoji-2">💖</span>
+                                    <span class="emoji emoji-3">✨</span>
+                                    <span class="emoji emoji-4">🎀</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slideshow-controls">
+                        <button class="slide-btn prev" onclick="changeSlide(-1)">❮</button>
+                        <div class="slide-indicators" id="slideIndicators"></div>
+                        <button class="slide-btn next" onclick="changeSlide(1)">❯</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation-section fade-in-delay-3">
+                <div class="secret-message-section">
+                    <button class="secret-button" onclick="goToLetter()">
+                        <span class="secret-icon">💌</span>
+                        <span class="secret-text">Open Secret Message</span>
+                        <span class="secret-sparkle">✨</span>
+                    </button>
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="nav-button primary" onclick="goToGame()">
+                        <span>🎮</span>
+                        Back to Game
+                    </button>
+                    <button class="nav-button secondary" onclick="goHome()">
+                        <span>🏡</span>
+                        Back Home
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Made with 💖 by Tarosh</p>
+            <p class="total-chocolates" id="totalChocolates">Total chocolates earned: 0 🍫</p>
+        </footer>
+    </div>
+
+    <!-- Background Music (Optional) -->
+    <audio id="backgroundMusic" loop>
+        <source
+            src="data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhBSuBzvLZiTYIG2m98OScTgwOUarm7blmGgU7k9n1unEiBC13yO/eizEIHWq+8+OWT"
+            type="audio/wav">
+    </audio>
+
+    <script src="redeem-script.js"></script>
+</body>
+
+</html>

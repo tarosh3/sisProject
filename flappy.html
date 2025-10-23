@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Hearts Game 🍫💖</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game-styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <header class="game-header">
+            <h1>Chocolate Hearts Game 🍫💖</h1>
+            <div class="score-display">
+                <span id="score">Score: 0 🍫</span>
+                <span id="high-score">Best: 0 🏆</span>
+            </div>
+        </header>
+
+        <div class="game-area">
+            <canvas id="gameCanvas" width="400" height="600"></canvas>
+            
+            <div class="game-overlay" id="gameOverlay">
+                <div class="start-screen" id="startScreen">
+                    <h2>Help the Heart Collect Chocolates! 💖</h2>
+                    <p>Tap or press SPACE to fly</p>
+                    <p>Avoid the obstacles and collect chocolates!</p>
+                    <button class="game-button" id="startButton">Start Game ✨</button>
+                </div>
+                
+                <div class="game-over-screen" id="gameOverScreen" style="display: none;">
+                    <h2>Game Over! 💔</h2>
+                    <p id="finalScore">You collected 0 chocolates!</p>
+                    <p class="encouragement">You're amazing! Try again! 💕</p>
+                    <button class="game-button" id="restartButton">Play Again 🔄</button>
+                    <button class="game-button secondary" id="redeemButton">Redeem Chocolates 🍫</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-controls">
+            <p>💡 Tap anywhere or press SPACE to fly!</p>
+            <div class="navigation-buttons">
+                <button class="nav-button" onclick="goHome()">🏡 Home</button>
+                <button class="nav-button" onclick="goToRedeem()">🍫 Redeem</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="flappy-game.js"></script>
+</body>
+</html>

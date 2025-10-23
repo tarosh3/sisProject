@@ -1,0 +1,304 @@
+::1 - - [23/Oct/2025 11:32:59] "GET / HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:33:00] "GET /styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:33:00] "GET /script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:33:00] code 404, message File not found
+::1 - - [23/Oct/2025 11:33:00] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 11:33:09] code 404, message File not found
+::1 - - [23/Oct/2025 11:33:09] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 11:33:09] "GET /flappy.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:33:10] "GET /game-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:33:10] "GET /flappy-game.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:34:11] "GET /redeem.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:34:11] "GET /redeem-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:34:11] "GET /redeem-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:37:26] "GET /redeem.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:37:26] "GET /redeem-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:37:26] "GET /redeem-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:37:30] "GET / HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:37:30] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:37:30] "GET /script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:37:32] code 404, message File not found
+::1 - - [23/Oct/2025 11:37:32] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 11:37:33] "GET /flappy.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:37:33] "GET /game-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:37:33] "GET /flappy-game.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:39:49] "GET /flappy.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:39:49] "GET /game-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:39:49] "GET /flappy-game.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:39:50] "GET /flappy.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:39:50] "GET /flappy-game.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:40:34] "GET /flappy.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:40:34] "GET /game-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:40:34] "GET /flappy-game.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:41:12] "GET /flappy.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:41:12] "GET /game-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:41:12] "GET /flappy-game.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:41:36] "GET /flappy.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:41:37] "GET /flappy-game.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 11:41:56] "GET /redeem.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:41:57] "GET /redeem-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 11:41:57] "GET /redeem-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:02:48] "GET /redeem.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:02:48] "GET /photos/photo1.jpg HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:02:48] "GET /photos/photo2.jpg HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:02:48] "GET /redeem-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:02:48] "GET /photos/photo3.jpg HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:02:48] "GET /photos/photo4.jpg HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:02:48] "GET /photos/photo5.jpg HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:02:48] "GET /photos/photo6.jpg HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:02:48] "GET /redeem-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:02:48] "GET /photos/photo7.jpg HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:04:50] "GET /redeem.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:04:50] "GET /redeem-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:04:50] "GET /photos/photo1.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:04:50] "GET /photos/photo2.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:04:50] "GET /redeem-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:04:50] "GET /photos/photo5.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:04:50] "GET /photos/photo3.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:04:50] "GET /photos/photo4.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:04:50] "GET /photos/photo6.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:04:50] "GET /photos/photo7.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:06:52] "GET /redeem.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:06:52] "GET /redeem-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:06:52] "GET /photos/photo2.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:06:52] "GET /photos/photo1.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:06:52] "GET /photos/photo4.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:06:52] "GET /photos/photo5.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:06:52] "GET /photos/photo3.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:06:52] "GET /photos/photo7.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:06:52] "GET /photos/photo6.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:06:52] "GET /redeem-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:09:39] "GET /redeem.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:09:40] "GET /photos/photo2.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:09:40] "GET /redeem-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:09:40] "GET /photos/photo1.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:09:40] "GET /redeem-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:09:40] "GET /photos/photo4.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:09:40] "GET /photos/photo3.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:09:40] "GET /photos/photo5.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:09:40] "GET /photos/photo7.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:09:40] "GET /photos/photo6.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:10:01] code 404, message File not found
+::1 - - [23/Oct/2025 12:10:01] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:10:01] "GET /redeem-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:10:10] "GET /redeem.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:10:10] code 404, message File not found
+::1 - - [23/Oct/2025 12:10:10] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:10:10] "GET /redeem-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:10:22] "GET /index.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:10:22] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:10:22] "GET /script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:10:30] code 404, message File not found
+::1 - - [23/Oct/2025 12:10:30] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:10:30] "GET /flappy.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:10:30] "GET /game-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:10:30] "GET /flappy-game.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:11:08] "GET /redeem.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:11:08] "GET /redeem-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:11:08] "GET /redeem-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:11:08] "GET /photos/photo2.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:11:08] "GET /photos/photo3.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:11:08] "GET /photos/photo5.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:11:08] "GET /photos/photo1.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:11:08] "GET /photos/photo4.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:11:08] "GET /photos/photo7.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:11:08] "GET /photos/photo6.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:20:51] "GET /redeem.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:20:51] "GET /redeem-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:20:51] "GET /photos/photo1.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:20:51] "GET /photos/photo2.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:20:51] "GET /photos/photo3.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:20:51] "GET /photos/photo5.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:20:51] "GET /photos/photo4.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:20:51] "GET /photos/photo6.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:20:51] "GET /redeem-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:20:51] "GET /photos/photo7.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:20:56] "GET /letter.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:20:56] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:20:56] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:21:00] code 404, message File not found
+::1 - - [23/Oct/2025 12:21:00] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:26:43] "GET /flappy.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:43] "GET /game-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:43] "GET /flappy-game.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:57] "GET /redeem.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:57] "GET /photos/photo1.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:57] "GET /photos/photo2.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:57] "GET /photos/photo3.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:57] "GET /photos/photo4.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:57] "GET /redeem-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:57] "GET /photos/photo5.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:57] "GET /redeem-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:57] "GET /photos/photo6.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:26:57] "GET /photos/photo7.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:27:05] "GET /letter.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:27:06] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:27:06] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:27:10] code 404, message File not found
+::1 - - [23/Oct/2025 12:27:10] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:30:36] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:30:36] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:30:36] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:30:41] code 404, message File not found
+::1 - - [23/Oct/2025 12:30:41] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:35:14] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:35:14] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:35:14] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:35:19] code 404, message File not found
+::1 - - [23/Oct/2025 12:35:19] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:35:30] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:35:30] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:35:30] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:38:56] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:38:56] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:38:56] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:39:01] code 404, message File not found
+::1 - - [23/Oct/2025 12:39:01] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:39:03] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:39:13] code 404, message File not found
+::1 - - [23/Oct/2025 12:39:13] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:39:14] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:39:14] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:39:14] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:46:35] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:46:35] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:46:35] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:46:40] code 404, message File not found
+::1 - - [23/Oct/2025 12:46:40] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:46:44] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:46:44] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:46:44] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:48:42] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:48:42] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:48:42] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:48:47] code 404, message File not found
+::1 - - [23/Oct/2025 12:48:47] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:48:49] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:48:49] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:50:51] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:50:51] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:50:51] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:50:52] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:50:53] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:50:53] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:50:58] code 404, message File not found
+::1 - - [23/Oct/2025 12:50:58] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:50:58] code 404, message File not found
+::1 - - [23/Oct/2025 12:50:58] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:50:58] code 404, message File not found
+::1 - - [23/Oct/2025 12:50:58] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:51:05] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:51:05] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:58:33] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:58:33] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:58:33] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 12:58:37] code 404, message File not found
+::1 - - [23/Oct/2025 12:58:37] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 12:58:38] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:58:38] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 12:58:38] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:04:45] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:04:45] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:04:45] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:04:49] code 404, message File not found
+::1 - - [23/Oct/2025 13:04:49] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:10:21] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:10:21] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:10:21] "GET /letter-script.js HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:10:26] code 404, message File not found
+::1 - - [23/Oct/2025 13:10:26] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:12:37] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:12:37] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:12:41] code 404, message File not found
+::1 - - [23/Oct/2025 13:12:41] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:15:51] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:15:52] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:15:52] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:15:56] code 404, message File not found
+::1 - - [23/Oct/2025 13:15:56] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:15:58] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:15:58] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:17:09] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:17:09] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:17:09] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:17:21] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:17:21] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:17:28] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:17:28] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:17:32] code 404, message File not found
+::1 - - [23/Oct/2025 13:17:32] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:17:38] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:17:38] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:17:41] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:17:41] code 404, message File not found
+::1 - - [23/Oct/2025 13:17:41] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:19:45] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:19:45] code 404, message File not found
+::1 - - [23/Oct/2025 13:19:45] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:19:46] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:19:46] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:21:19] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:21:19] code 404, message File not found
+::1 - - [23/Oct/2025 13:21:19] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:21:19] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:21:19] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:21:23] code 404, message File not found
+::1 - - [23/Oct/2025 13:21:23] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:22:13] "GET /index.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:22:13] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:22:13] "GET /script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:22:31] "GET /index.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:22:36] code 404, message File not found
+::1 - - [23/Oct/2025 13:22:36] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:22:58] "GET /index.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:22:58] code 404, message File not found
+::1 - - [23/Oct/2025 13:22:58] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:26:01] "GET /index.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:26:01] code 404, message File not found
+::1 - - [23/Oct/2025 13:26:01] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:28:01] "GET /index.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:28:01] code 404, message File not found
+::1 - - [23/Oct/2025 13:28:01] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:28:37] "GET /index.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:28:45] code 404, message File not found
+::1 - - [23/Oct/2025 13:28:45] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:28:48] code 404, message File not found
+::1 - - [23/Oct/2025 13:28:48] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:28:49] "GET /flappy.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:28:49] code 404, message File not found
+::1 - - [23/Oct/2025 13:28:49] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:28:49] "GET /game-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:28:49] "GET /flappy-game.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:18] "GET /redeem.html HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:29:18] code 404, message File not found
+::1 - - [23/Oct/2025 13:29:18] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:29:18] "GET /redeem-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:18] "GET /photos/photo1.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:18] "GET /photos/photo2.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:18] "GET /photos/photo3.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:18] "GET /photos/photo4.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:18] "GET /photos/photo5.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:18] "GET /photos/photo6.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:18] "GET /redeem-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:18] "GET /photos/photo7.jpg HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:32] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:32] code 404, message File not found
+::1 - - [23/Oct/2025 13:29:32] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:29:32] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:32] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:29:36] code 404, message File not found
+::1 - - [23/Oct/2025 13:29:36] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:33:12] code 404, message File not found
+::1 - - [23/Oct/2025 13:33:12] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:33:12] "GET /letter-styles.css HTTP/1.1" 200 -
+::1 - - [23/Oct/2025 13:33:14] "GET /letter.html HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:33:14] code 404, message File not found
+::1 - - [23/Oct/2025 13:33:14] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:33:14] "GET /letter-script.js HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:33:17] code 404, message File not found
+::1 - - [23/Oct/2025 13:33:17] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:33:53] code 404, message File not found
+::1 - - [23/Oct/2025 13:33:53] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+::1 - - [23/Oct/2025 13:33:53] "GET /letter-styles.css HTTP/1.1" 304 -
+::1 - - [23/Oct/2025 13:33:57] code 404, message File not found
+::1 - - [23/Oct/2025 13:33:57] "GET /favicon.ico HTTP/1.1" 404 -

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Letter for My Sisters 💌</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="letter-styles.css">
+</head>
+
+<body>
+  <!-- Animated Background -->
+  <div class="animated-background">
+    <div class="floating-sparkles">
+      <div class="sparkle">✨</div>
+      <div class="sparkle">💫</div>
+      <div class="sparkle">⭐</div>
+      <div class="sparkle">✨</div>
+      <div class="sparkle">💫</div>
+      <div class="sparkle">⭐</div>
+    </div>
+    <div class="floating-hearts">
+      <div class="heart">💕</div>
+      <div class="heart">💖</div>
+      <div class="heart">💗</div>
+      <div class="heart">💝</div>
+      <div class="heart">💕</div>
+      <div class="heart">💖</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Envelope Section -->
+    <div class="envelope-section" id="envelopeSection">
+      <div class="envelope" id="envelope">
+        <!-- Envelope Body -->
+        <div class="envelope-body"></div>
+
+        <!-- Envelope Flap -->
+        <div class="envelope-flap" id="envelopeFlap">
+          <div class="flap-triangle"></div>
+        </div>
+
+        <!-- Envelope Seal -->
+        <div class="envelope-seal">💌</div>
+
+        <!-- Letter Inside (Hidden Initially) -->
+        <div class="letter-inside" id="letterInside">
+          <div class="letter-paper">
+            <div class="letter-content">
+              <div class="letter-header">
+                <div class="decorative-line">✨ 💖 ✨</div>
+              </div>
+
+              <div class="letter-message" id="letterMessage">
+                <!-- Text will be typed here character by character -->
+              </div>
+
+              <div class="letter-signature" id="letterSignature">
+                <!-- Signature will appear here -->
+              </div>
+
+              <div class="letter-footer">
+                <div class="decorative-line">💖 ✨ 💖</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="click-instruction" id="clickInstruction">
+        <p>Click the envelope to read your special message 💕</p>
+      </div>
+    </div>
+
+    <!-- Confetti Effects -->
+    <div class="confetti-container" id="confettiContainer"></div>
+
+    <!-- Navigation Buttons -->
+    <div class="navigation-buttons" id="navigationButtons">
+      <button class="nav-btn replay-btn" onclick="replayAnimation()">
+        <span class="btn-icon">🎀</span>
+        <span class="btn-text">Replay</span>
+      </button>
+      <button class="nav-btn back-btn" onclick="goToRedeem()">
+        <span class="btn-icon">🍫</span>
+        <span class="btn-text">Back to Redeem</span>
+      </button>
+      <button class="nav-btn home-btn" onclick="goHome()">
+        <span class="btn-icon">🏡</span>
+        <span class="btn-text">Back Home</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="letter-script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,289 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffeef8 0%, #f0e6ff 50%, #e6f3ff 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Animated Background */
+.animated-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.floating-hearts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.heart {
+    position: absolute;
+    font-size: 20px;
+    animation: float 6s ease-in-out infinite;
+    opacity: 0.7;
+}
+
+.heart:nth-child(1) { left: 10%; animation-delay: 0s; }
+.heart:nth-child(2) { left: 20%; animation-delay: 1s; }
+.heart:nth-child(3) { left: 30%; animation-delay: 2s; }
+.heart:nth-child(4) { left: 40%; animation-delay: 3s; }
+.heart:nth-child(5) { left: 50%; animation-delay: 4s; }
+.heart:nth-child(6) { left: 60%; animation-delay: 5s; }
+.heart:nth-child(7) { left: 70%; animation-delay: 1.5s; }
+.heart:nth-child(8) { left: 80%; animation-delay: 2.5s; }
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(100vh) rotate(0deg);
+        opacity: 0;
+    }
+    10%, 90% {
+        opacity: 0.7;
+    }
+    50% {
+        transform: translateY(-10vh) rotate(180deg);
+        opacity: 1;
+    }
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #d63384;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(214, 51, 132, 0.3);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+/* Main Content */
+.main-content {
+    width: 100%;
+    text-align: center;
+}
+
+.message-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    padding: 3rem 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 20px 40px rgba(214, 51, 132, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Cute Illustration */
+.cute-illustration {
+    margin-bottom: 2rem;
+}
+
+.siblings-hug {
+    position: relative;
+    display: inline-block;
+    font-size: 4rem;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.brother, .sister {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.hug-hearts {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8rem;
+    animation: heartbeat 1.5s ease-in-out infinite;
+    z-index: 1;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes heartbeat {
+    0%, 100% { transform: translateX(-50%) scale(1); }
+    50% { transform: translateX(-50%) scale(1.2); }
+}
+
+/* Message Text */
+.heartfelt-message {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #6f42c1;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.sparkle {
+    display: inline-block;
+    animation: sparkle 1s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+    0%, 100% { transform: scale(1) rotate(0deg); }
+    50% { transform: scale(1.2) rotate(180deg); }
+}
+
+/* Game Section */
+.game-section {
+    margin-top: 2rem;
+}
+
+.play-button {
+    background: linear-gradient(135deg, #ff6b9d, #c44569);
+    border: none;
+    border-radius: 50px;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(255, 107, 157, 0.4);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.play-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(255, 107, 157, 0.6);
+}
+
+.play-button:active {
+    transform: translateY(-2px);
+}
+
+.button-emoji {
+    font-size: 1.8rem;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    padding: 2rem 0;
+    text-align: center;
+    color: #8e44ad;
+    font-weight: 300;
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 1s ease-out;
+}
+
+.fade-in-delay {
+    animation: fadeIn 1s ease-out 0.5s both;
+}
+
+.fade-in-delay-2 {
+    animation: fadeIn 1s ease-out 1s both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px 15px 80px 15px;
+    }
+    
+    .title {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .message-card {
+        padding: 2rem 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .heartfelt-message {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+    
+    .siblings-hug {
+        font-size: 3rem;
+    }
+    
+    .play-button {
+        padding: 15px 30px;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px 15px 100px 15px;
+    }
+    
+    .title {
+        font-size: 2rem;
+    }
+    
+    .heartfelt-message {
+        font-size: 1rem;
+    }
+    
+    .siblings-hug {
+        font-size: 2.5rem;
+    }
+    
+    .play-button {
+        padding: 12px 25px;
+        font-size: 1.2rem;
+    }
+}
